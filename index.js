@@ -8,7 +8,7 @@ dotenv.config()
 const app = express()
 ConnectToDb()
 
-const port = 6000
+const port =  print.env.Port || 6000
 
 
 app.use(express.json())
